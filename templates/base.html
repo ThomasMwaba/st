@@ -1,0 +1,87 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Status</title>
+    <link href="https://bootswatch.com/5/sketchy/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for Bootstrap alert component */
+        .alert {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1rem 1.25rem;
+            border: 1px solid transparent;
+            border-radius: 0;
+            margin-bottom: 0;
+        }
+
+        .alert-warning {
+            color: #856404;
+            background-color: #ffeeba;
+            border-color: #ffeeba;
+        }
+
+        .alert-warning strong {
+            font-weight: bold;
+        }
+
+        .alert .btn-close {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            padding: 0.75rem 1rem;
+            background-color: transparent;
+            border: none;
+            font-size: 1rem;
+            line-height: 1;
+        }
+
+        .alert .btn-close:focus {
+            outline: none;
+        }
+
+        .alert .btn-close:hover {
+            color: #000;
+        }
+
+        /* Custom styling for links inside alert */
+        .alert-links {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    {% block content %}
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    {% for msg in messages %}
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>Great Job!</strong> {{ msg }}
+                        <div class="alert-links">
+                            <a href="{% url 'home' %}">Home Page</a><br>
+                            <a href="{% url 'reading' %}">Reading Page</a>
+                            
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}
+
+    <!-- Bootstrap JS (jQuery included) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+

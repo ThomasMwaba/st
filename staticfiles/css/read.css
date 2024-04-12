@@ -1,0 +1,42 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+   
+}
+
+.post-entry {
+    padding: 20px;
+    border: #7CB9E8;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.post-entry h2 {
+    color:black;
+    font-size: 24px;
+    margin: 0.5rem 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
+
+.post-entry p {
+    font-family: system-ui;
+    font-weight: 400;
+    color: 	black;
+    font-size: larger;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.post-entry h2 a:hover {
+    color: red;
+}

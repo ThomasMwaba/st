@@ -1,0 +1,55 @@
+{% load static %}
+{%load crispy_forms_tags %}
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Status</title>
+        <link href="https://bootswatch.com/5/sketchy/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    
+        <!-- Custom CSS styling -->
+        <style>
+            /* Custom styling for form submit button */
+            form input[type="submit"] {
+                background-color: skyblue;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+    
+            form input[type="submit"]:hover {
+                background-color: brown;
+            }
+
+             /* Custom styling for form fields */
+        .form-control {
+            width: 300px; /* Adjust the width of form fields as needed */
+        }
+        </style>
+
+        <h3>Project Submission Form</h3>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.name | as_crispy_field}}
+            <br><br>
+            {{ form.grade | as_crispy_field }}
+            <br><br>
+            {{ form.project | as_crispy_field }}
+            <br><br>
+            {{ form.progress | as_crispy_field }}
+            <br><br>
+            {{ form.hours | as_crispy_field }}
+            <br><br>
+            {{ form.learning | as_crispy_field }}
+            <br><br>
+            {{ form.how | as_crispy_field }}
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+    </html>
+    

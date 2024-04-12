@@ -1,0 +1,189 @@
+# Ignore specific files and directories
+/.VirtualBox/
+/.anaconda/
+/.aws/
+/.bash_history
+/.conda/
+/.condarc
+/.continuum/
+/.cufflinks/
+/.edevletconf/
+/.gitconfig
+/.idlerc/
+/.jupyter/
+/.keras/
+/.lesshst
+/.matplotlib/
+/.popsql.json
+/.ssh/
+/.th-client/
+/.vagrant.d/
+/.vscode-insiders/
+/.vscode/
+/00-Keras-Syntax-Basics.ipynb
+/00-MNIST-ANN-Code-Along.ipynb
+/00-PyTorch-Gradients.ipynb
+/00-Tensor-Basics.ipynb
+/01-Anagram Check - SOLUTION.ipynb
+/01-Anagram Check .ipynb
+/01-Decision Trees and Random Forests in Python.ipynb
+/01-Keras-Regression.ipynb
+/01-Linear-Regression-with-PyTorch.ipynb
+/01-MNIST-with-CNN.ipynb
+/01_balanced_parentheses_check.ipynb
+/01_balanced_parentheses_check_2.ipynb
+/02-Array Pair Sum - SOLUTION.ipynb
+/02-Array Pair Sum .ipynb
+/02-DataSets-with-Pytorch.ipynb
+/02-Decision Trees and Random Forest Project.ipynb
+/02-Keras-Classification.ipynb
+/02-PyTorch-Basics-Exercises.ipynb
+/03-Basic-PyTorch-NN.ipynb
+/03-Keras-Project-Exercise.ipynb
+/04-Dynamic Array Exercise.ipynb
+/04-Keras-Project-Exercise-Solutions.ipynb
+/04-Tensorflow Project Exercise.ipynb
+/04a-Full-ANN-Code-Along-Regression.ipynb
+/04b-Full-ANN-Code-Along-Classification.ipynb
+/05-Implement a Queue -Using Two Stacks .ipynb
+/05-Neural-Network-Exercises.ipynb
+/05-Sentence Reversal.ipynb
+/05-Tensorboard.ipynb
+/05-Tensorflow Project Exercise - Solutions.ipynb
+/06-String Compression .ipynb
+/AVERAGE_FXRATES.csv
+/AVERAGE_FXRATES.xlsx
+/AppData/
+/App_Store_Project.ipynb
+/Basic Pytorch ANN/
+/CO2_emission.csv
+/CO2_emission.excel
+/Contacts/
+/DAILY_RATES.xlsx
+/DArray.ipynb
+/Data - Structures and Algorithms try outs/
+/Data Structures and Algorithms/
+/Deep_Learning_with_PyTorch_Book/
+/Documentations.py
+/F1 Singapole 2023.xlsx
+/F1_Singapole_Grand_prix_2023.ipynb
+/Favorites/
+/IdentifyingSpecialMatrices.ipynb
+/If_and else_Statement.ipynb
+/If_and else_Statement.py
+/If_and else_Statements/
+/IrisDatasetModel.pt
+/Kings and followers project/
+/KwaZulu-Natal_LS.csv
+/KwaZulu-Natal_LS.xlsx
+/Linkedin posts.ipynb
+/Linkedin posts/
+/Links/
+/Load Shedding Data analysis.ipynb
+/Machine learning Tutorials .ipynb
+/Ministry of Fisheries and Livestock Zambia.xlsx
+/My Python stuff/
+/Myfirstnotebook.ipynb
+/NTUSER.DAT
+/NTUSER.DAT*
+/NYCTaxiFares.csv
+/NumPy Project.ipynb
+/Oppenhimer_Cleaned_Reviews.csv
+/Ourgraph.png
+/Probability-distributions-of-the-input-variables-12.png
+/Probability.jpg
+/Probability.png
+/PycharmProjects/
+/Python Intermediate Course Freecodecamp.ipynb
+/Python intermediate.ipynb
+/Python notes.txt
+/Python projects/
+/Pytorch_udemy_course/
+/QVI_data.csv
+/QVI_purchase_behaviour.csv
+/QVI_transaction_data*.xlsx
+/Qui_analysis.ipynb
+/SELECTED AVERAGE PRICES(ZAMBIAN KWACHA) OF MEAT TYPES IN LUSAKA ,JULY 2022 - APRIL 2023.ipynb
+/Sales Project.ipynb
+/Saved Games/
+/Searches/
+/Some_BrandNew_Doc.pdf
+/Some_New_Doc.pdf
+/Some_new_file.pdf
+/Stacks, Queues and Deques.ipynb
+/StudentsPerformance.csv
+/TF_intro.npz
+/Top selling Books - Pandas_Project.ipynb
+/Turkey_earthquakes*.csv
+/Uncategorized/
+/Web Scraping.ipynb
+/Working_Business_Proposal.pdf
+/ZMW Exchange rates 2023.xlsx
+/_netrc
+/abdkkbjsjs.txt
+/anaconda3/
+/appstore_games.csv
+/bank_note_data.csv
+/best-selling-books.csv
+/blue_color*
+/bobby.jpg
+/cancer_classification.csv
+/comp_file.zip
+/conditions.py
+/david_jpg
+/deep-learning-with-pytorch-book/
+/df.xlsx
+/edb_languagepack_3.exe
+/edb_npgsql.exe
+/edb_pgagent_pg*.exe
+/edb_pgbouncer.exe
+/edb_pgjdbc.exe
+/edb_psqlodbc.exe*
+/example.*
+/fake_reg.csv
+/file*.txt
+/food_recorded.xlsx
+/freepractice.ipynb
+/functions.ipynb
+/functions.py
+/global-data-on-sustainable-energy*.csv
+/gsview64.ini
+/horse.jpg
+/housing.csv
+/imagenet_classes.txt
+/import requests.py
+/income.csv
+/iris.csv
+/kasparov_image.png
+/kc_house_data.csv
+/kyphosis.csv
+/lending_club_info.csv
+/lending_club_loan_two.csv
+/loan_data.csv
+/mask.png
+/matplotlib.ipynb
+/money_and_ happiness.*
+/money_and_happiness.*
+/money_and_happiness.*
+/mysite/
+/mythical.txt
+/ntuser.dat*
+/numbers.txt*
+/operators.png
+/pandas numpy matplotlib .ipynb
+/pemhttpd.exe
+/pencils.jpg
+/postgresql_*.exe
+/practice.txt
+/purple.png
+/py3TF2.0/
+/python for Ayaz/
+/python projects.ipynb
+/python studying .ipynb
+/pytorch_basics_udemy_course.ipynb
+/pytorch_gradients.ipynb
+/red_color.jpg
+/roy_project.ipynb
+/scrap.py
+/seminar_*.csv
+/semin

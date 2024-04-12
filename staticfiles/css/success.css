@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+   
+}
+
+a  {
+    color: chocolate;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    
+    color: black; /* White text */
+    cursor: pointer; /* Cursor style on hover */
+    font-family: 'Inter', sans-serif;
+
+}

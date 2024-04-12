@@ -1,0 +1,17 @@
+{% load static %}
+{% block content %}
+
+
+<link href="https://bootswatch.com/5/sketchy/bootstrap.min.css"
+    rel="stylesheet">
+    <link href="{% static 'css/read.css' %}" rel="stylesheet">
+    <div class = "reading-links">
+        <a href="{% url 'home' %}">Home Page</a> 
+     </div>
+{% for reading in object_list %}
+<div class="post-entry">
+<h2>{{ reading.topic }}</h2>
+<p>{{ reading.details }}</p>
+</div>
+{% endfor %}
+{% endblock content %}
