@@ -50,6 +50,12 @@ CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 
 CSRF_TRUSTED_ORIGINS = ['students-progress-form-production.up.railway.app']
+SESSION_COOKIE_HTTPONLY = True  # Set to True for enhanced security
+CSRF_COOKIE_HTTPONLY = True  # Set to True for enhanced security
+# settings.py
+
+CSRF_COOKIE_SAMESITE = 'Strict'  # or 'Lax' for less strict enforcement
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
