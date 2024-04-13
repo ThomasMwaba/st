@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-8=0&$@9-c8b#r90&-wasu2p1xc@7v^50e=7kbwz-@^4fs8a1-^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['students-progress-form-production.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','students-progress-form-production.up.railway.app']
 
 
 # Application definition
@@ -49,7 +49,12 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 
-CSRF_TRUSTED_ORIGINS = ['https://students-progress-form-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = [
+    'http://students-progress-form-production.up.railway.app',
+    'https://students-progress-form-production.up.railway.app',
+    'https://*.up.railway.app'
+]
+
 SESSION_COOKIE_HTTPONLY = True  # Set to True for enhanced security
 CSRF_COOKIE_HTTPONLY = True  # Set to True for enhanced security
 # settings.py
