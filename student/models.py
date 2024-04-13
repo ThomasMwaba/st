@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
 
@@ -25,13 +26,14 @@ class Submit(models.Model):
              ('Vertical_Learning','Vertical Learning'))
     learning = models.CharField(max_length=50,choices=LEARNING)
     how = models.TextField()
+    date = models.DateField(auto_now=True)
     
     def __str__(self):
-        return self.name
+        return self.name +  '' + self.grade
     
 class Reading(models.Model):
     topic = models.CharField(max_length=30)
     details = models.TextField()
     
     def __str__(self):
-        return self.topic
+        return self.topic 
