@@ -9,8 +9,8 @@ class Submit(models.Model):
     #              'auth.User',
     #              on_delete=models.CASCADE,
     #              )
-    GRADE = (('grade6','grade 6'),
-             ('grade7','grade 7'))
+    GRADE = (('grade 7','grade 6'),
+             ('grade 7','grade 7'))
     grade = models.CharField(max_length=50,choices=GRADE)
     project = models.CharField(max_length=50)
     progress = models.TextField()
