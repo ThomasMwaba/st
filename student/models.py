@@ -21,8 +21,7 @@ class Submit(models.Model):
              (5,5)
              )
     hours = models.IntegerField(choices=HOURS)
-    LEARNING = (('Active Recall','Active Recall'),
-             ('Horizontal Learning','Horizontal Learning'),
+    LEARNING = (('Horizontal Learning','Horizontal Learning'),
              ('Vertical Learning','Vertical Learning'))
     learning = models.CharField(max_length=50,choices=LEARNING)
     how = models.TextField()
