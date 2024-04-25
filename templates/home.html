@@ -8,6 +8,7 @@
         <title>Project Status</title>
         <link href="https://bootswatch.com/5/sandstone/bootstrap.min.css" type="text/css" rel="stylesheet">
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
         <!-- Custom CSS styling -->
         <style>
@@ -35,15 +36,18 @@
         <h3>Project Submission Form</h3>
         <form action="" method="post">
             {% csrf_token %}
-            {{ form.name | as_crispy_field}}
+            {{ form.name  | as_crispy_field}}  
             <br><br>
-            {{ form.grade | as_crispy_field }}
+            <div class="form-group">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                {{ form.grade | as_crispy_field }}
+            </div>
             <br><br>
             {{ form.project | as_crispy_field }}
             <br><br>
-            {{ form.progress | as_crispy_field }}
+            &nbsp; <i class="fa fa-spinner" aria-hidden="true"></i>{{ form.progress | as_crispy_field }}
             <br><br>
-            {{ form.hours | as_crispy_field }}
+            &nbsp; <i class="fa fa-clock-o" aria-hidden="true"></i> {{ form.hours | as_crispy_field }}
             <br><br>
             {{ form.learning | as_crispy_field }}
             <br><br>
