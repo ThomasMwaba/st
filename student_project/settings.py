@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-8=0&$@9-c8b#r90&-wasu2p1xc@7v^50e=7kbwz-@^4fs8a1-^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','students-progress-form-production.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','students-progress-form-production.up.railway.app','www.projectstatus.click']
 
 
 # Application definition
